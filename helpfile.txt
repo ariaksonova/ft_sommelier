@@ -1,0 +1,2 @@
+RUN docker: docker-compose run --rm sommelier sh
+BUILD docker: docker-compose build sommelier

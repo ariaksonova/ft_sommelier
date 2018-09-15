@@ -3,7 +3,7 @@ import pandas
 import random
 
 def plot_scatter_matrix(wine_data, good_threshold, bad_threshold, save_plot=False):
-    
+    pass
 
 wine_data = []
 file = open("resources/winequality-red.csv", "r")
