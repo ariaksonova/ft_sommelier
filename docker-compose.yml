@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  sommelier:
+    build: .
+    volumes:
+      - .:/app:rw
