@@ -1,5 +1,4 @@
 import matplotlib
-
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import pandas
@@ -48,8 +47,3 @@ def plot_scatter_matrix(wine_data, good_threshold, bad_threshold, save_plot=Fals
     if save_plot:
         save('plot_scatter_matrix', fmt='png')
     plt.show()
-
-
-wine_data = pandas.read_csv('resources/winequality-red.csv', sep=';')
-# print(wine_data, type(wine_data))
-plot_scatter_matrix(wine_data, 6, 5, True)
